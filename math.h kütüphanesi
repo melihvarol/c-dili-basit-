@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+
+/*
+
+sqrt() -> karekok  float
+abs() -> tam sayı için mutlak deger
+fabs()-> ondalıklı sayı için mutlak değer
+pow() -> us alma
+sin() -> sinus
+cos() -> cos
+tan() -> tajant
+exp() -> exp hesaplar  (double)
+
+*/
+
+//int main() {
+//	int sayi=-36;
+/*	float sonuc=sqrt(sayi);
+	printf("%d sayinin karekoku: %f",sayi,sonuc);
+*/	
+	
+//	int sonuc=abs(sayi);
+//	printf("%d sayisinin mutlak degeri:%d",sayi,sonuc);
+	
+/*int taban, us, sonuc;
+    taban = 3;
+    us = 5;
+    sonuc=pow(taban,us);
+    printf("%d uslu sayinin sonucu: %d", us, sonuc);*
+*/	
+	float aci,sonuc;
+	aci=m_pi/6;
+	sonuc=sin(aci);
+	printf("sonuc: %f",sonuc);
+	return 0;
+}
