@@ -1,18 +1,1 @@
-//float,char,double ve char değişkelnlerinin sizeof ile değerlerinin okunması
 
-#include <stdio.h>
-#include <stdlib.h>
-
-
-int main() {
-int tamsayi=20;
-float ondaliklisayi=3.14; //%f kullanılır 
-double doubleisayi=	1806.2003; //%f kullanılır
-char karakter='S'; //%c kullanılır
-
-printf("tam sayi boyutunun RAM degeri:%zu Byte dir \n",sizeof(tamsayi));
-printf("ondalikli sayi boyutunun RAM degeri:%zu Byte dir \n",sizeof(ondaliklisayi));	
-printf("double sayi boyutunun RAM degeri:%zu Byte dir \n",sizeof(doubleisayi));	
-printf("karakter boyutunun RAM degeri:%zu Byte dir \n",sizeof(karakter));	
-	return 0;
-}
