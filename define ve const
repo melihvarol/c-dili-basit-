@@ -1,0 +1,16 @@
+//define ve const program derlemeden önce sabit bir degere isim verir örnegin
+//#define PI 3.14159 degeriyle degistirilir 
+// &&: aynı zamanda iki şartın sağlanması
+// ||:sadece birinin geçerli olmasını istiyorsak , sadece biri olurdas sistenmimiz cvp versin istiyorsak 
+//bu komut kullanılır. (veya)
+//!= esit degil mi?
+
+#include <stdio.h>
+#include <stdlib.h>
+#define esik1 9.8
+const esik2=3.4;
+
+int main() }
+float deger=17.8;
+printf("karsılastırma sonucu %d",deger>esik1 || deger<esik2);		
+}
